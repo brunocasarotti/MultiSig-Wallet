@@ -6,6 +6,7 @@
 
 To build the project:
 ```
+npm install
 truffle compile
 ```
 ### Deploying to Rinkeby
@@ -20,7 +21,7 @@ Make sure your wallet has enough faucets to deploy the contract and run
 truffle migrate --network rinkeby
 ```
 If it works you should see something like this:
-````
+```
    Replacing 'MultiSigWallet'
    --------------------------
    > transaction hash:    0x4a40ac0574e305de28c658cc9c95da9ce1fe78c4de82596d56c61cb4d3828426
